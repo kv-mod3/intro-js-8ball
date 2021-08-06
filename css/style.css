@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+/* #answers {
+    background-image: url(../img/magic8ball_start.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    width: 450px;
+    margin: auto;
+} */
