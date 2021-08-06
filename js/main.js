@@ -47,17 +47,16 @@ enterBtn.addEventListener('click', function () {
         alert("Please enter in a question!");
     } else {
         changeImg()
-        inputBox.value = '';
+        inputBox.value = '';                        // clear input box
     };
 });
 
 // changing <img> in <div>
 function changeImg() {
     roundedInt = randomInt(1, 20);
-    eightBall.src = imgArray[roundedInt];
+    eightBall.src = imgArray[roundedInt];           // applies 
 
+    // console logs for debugging
     console.log('randomInt: ' + roundedInt);
     console.log(imgArray[roundedInt]);
 };
-
-console.log(document.getElementById('answers'));
